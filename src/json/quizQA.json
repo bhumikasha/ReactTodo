@@ -1,0 +1,60 @@
+{
+    "status": "ok",
+    "questionanswers": [
+        {
+            "question": "Your name",
+            "answerOptions": [
+                {
+                    "answerText": "A",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "B",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "C",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "D",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "question": "Your age",
+            "answerOptions":[
+                {
+                    "answerText": "20",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "33",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "40",
+                    "isCorrect": false
+                },
+                {
+                    "answerText": "90",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "Life Hell",
+            "answerOptions":[
+                {
+                    "answerText": "yes",
+                    "isCorrect": true
+                },
+                {
+                    "answerText": "no",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}
