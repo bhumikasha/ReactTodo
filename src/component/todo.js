@@ -41,11 +41,8 @@ class Todo extends Component {
         <form onSubmit={this.handleSubmit}>
           <label>Tere bas ki na hai</label>
           <input type="text" name="mytodo" onChange={this.displayNameHandler} value={this.state.currentItem.text} />
-          <button type="submit">haha chal thoda to hua</button>
-          {<p>"mytodo: " {this.state.mytodo.text}</p>}
-          {/* {this.state.mytodo.map(function(todo) {
-              return <li>{todo}</li>
-            })} */}
+          <button type="submit">haha I told you</button>
+          {<p>"mytodo: " {this.state.currentItem.text}</p>}
         </form>
       </div>
     );
