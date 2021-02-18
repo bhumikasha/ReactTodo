@@ -30,7 +30,13 @@ class Todo extends Component {
         showName: true,
         mytodo: todos
     }); 
-}
+  }
+
+  removeme = () => {
+    this.setState({
+      mytodo: []
+    })
+  }
 
   render() {
     return (
@@ -39,7 +45,8 @@ class Todo extends Component {
           <label>My todo</label>
           <input type="text" name="mytodo" onChange={this.displayNameHandler} value={this.state.currentItem.text} />
           <button type="submit">Add</button>
-            {this.state.mytodo.map(a=> { return <li key={a.key}>{(a.text)}</li>})}<br/>
+          {/* Deleting entire todo */}
+            {this.state.mytodo.map(a=> { return <li key={a.key}>{(a.text)}<button onClick={this.removeme}>RemoveMe</button></li>})}<br/>
         </form>
       </div>
     );
