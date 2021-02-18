@@ -24,28 +24,26 @@ class Todo extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const newItem = this.state.currentItem;
-    var todos = [...this.state.mytodo, newItem];
-    console.log(todos)
+    var todos = [newItem, ...this.state.mytodo];
+    console.log(todos);
     this.setState({
         showName: true,
-        mytodo: todos,
-        currentItem:{
-          text:'',
-          key:''
-        },
-    });  }
+        mytodo: todos
+    }); 
+}
 
   render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label>Tere bas ki na hai</label>
+          <label>My todo</label>
           <input type="text" name="mytodo" onChange={this.displayNameHandler} value={this.state.currentItem.text} />
-          <button type="submit">haha I told you</button>
-          {<p>"mytodo: " {this.state.currentItem.text}</p>}
+          <button type="submit">Add</button>
+            {this.state.mytodo.map(a=> { return <li>{(a.text)}</li>})}<br/>
         </form>
       </div>
     );
   }
 }
+
 export default Todo;

@@ -6,58 +6,55 @@
             "answerOptions": [
                 {
                     "answerText": "Anarkali",
-                    "isCorrect": "false"
+                    "answerKey": "10"
                 },
                 {
                     "answerText": "Bengan",
-                    "isCorrect": "false"
+                    "answerKey": "11"
                 },
                 {
                     "answerText": "Chudail",
-                    "isCorrect": "false"
+                    "answerKey": "12"
                 },
                 {
                     "answerText": "Dilbaag",
-                    "isCorrect": "true"
+                    "answerKey": "13"
                 }
             ],
-            "questionId": "099099"
+            "questionId": "1",
+            "correctAnswer": "Chudail"
         },
         {
             "question": "Select your age",
             "answerOptions":[
                 {
-                    "answerText": "old",
-                    "isCorrect": "false"
+                    "answerText": "old"
                 },
                 {
-                    "answerText": "kid",
-                    "isCorrect": "true"
+                    "answerText": "kid"
                 },
                 {
-                    "answerText": "adult",
-                    "isCorrect": "false"
+                    "answerText": "adult"
                 },
                 {
-                    "answerText": "alien",
-                    "isCorrect": "false"
+                    "answerText": "alien"
                 }
             ],
-            "questionId": "099992"
+            "questionId": "2",
+            "correctAnswer": "alien"
         },
         {
             "question": "Confirm if your Life Hell",
             "answerOptions":[
                 {
-                    "answerText": "yes",
-                    "isCorrect": "true"
+                    "answerText": "yes"
                 },
                 {
-                    "answerText": "pagal kya",
-                    "isCorrect": "false"
+                    "answerText": "pagal kya"
                 }
             ],
-            "questionId": "199099"
+            "questionId": "3",
+            "correctAnswer": "yes"
         }
     ]
 }
